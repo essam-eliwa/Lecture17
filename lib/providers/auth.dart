@@ -43,7 +43,7 @@ class Auth with ChangeNotifier {
 
   Future<void> _authenticate(
       String email, String password, String action) async {
-    final apiKey = "AIzaSyAxkqIy35sUtPnCOn02-L7EkSyZiUKeeFY";
+    final apiKey = "API-KEY";
     final url =
         'https://identitytoolkit.googleapis.com/v1/accounts:$action?key=$apiKey';
     try {
